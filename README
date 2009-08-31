@@ -1,0 +1,13 @@
+A skeleton Maven project that includes Cuke4Duke for accpetance tests.
+
+Unlike the examples that ship with Cuke4Duke this example has the acceptance 
+tests in a seperate module.
+
+Note: you will need to ensure that the Cucumber version specified in 
+acceptance/pom.xml matches the lastest version of Cucumber.
+
+Before running for the first time you will need to run:
+
+mvn -Dcucumber.installGems=true cuke4duke:features
+
+from the acceptance directroy in order to install the required gems
